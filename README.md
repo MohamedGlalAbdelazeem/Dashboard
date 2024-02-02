@@ -1,8 +1,10 @@
  Interactive Dashboard
+ ------------------------------------
 Overview
 Welcome to our interactive dashboard, a modern and responsive web application designed to provide users with a visually appealing and user-friendly experience. This dashboard is built using HTML and CSS, with a focus on leveraging the power of Flexbox and Grid layout techniques.
 
-Features
+---------------------------------------
+=>Features
 Responsive Design: Our dashboard adapts seamlessly to various devices and screen sizes, ensuring a consistent and enjoyable user experience.
 
 Flexbox Mastery: The layout is crafted using Flexbox, allowing for flexible space distribution and optimal content alignment.
