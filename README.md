@@ -8,26 +8,26 @@ Welcome to our interactive dashboard, a modern and responsive web application de
 Responsive Design: Our dashboard adapts seamlessly to various devices and screen sizes, ensuring a consistent and enjoyable user experience.
 
 
-Flexbox Mastery: The layout is crafted using Flexbox, allowing for flexible space distribution and optimal content alignment.
+=> Flexbox Mastery: The layout is crafted using Flexbox, allowing for flexible space distribution and optimal content alignment.
 
 
-Grid Layout for Precision: Grid layout is employed for a structured and grid-based design, providing precise control over the placement of UI elements.
+=> Grid Layout for Precision: Grid layout is employed for a structured and grid-based design, providing precise control over the placement of UI elements.
 
 
-Stylish UI Components: A collection of stylish UI components, including cards, panels, and navigation menus, contribute to an engaging and modern user interface.
+=> Stylish UI Components: A collection of stylish UI components, including cards, panels, and navigation menus, contribute to an engaging and modern user interface.
 
 
-Data Visualization Widgets: The dashboard includes data visualization widgets, such as charts and graphs, to present complex data in an easily understandable format.
+=> Data Visualization Widgets: The dashboard includes data visualization widgets, such as charts and graphs, to present complex data in an easily understandable format.
 
 
-Modular Architecture: The application is structured with a modular approach, allowing for easy customization and future expansion.
+=> Modular Architecture: The application is structured with a modular approach, allowing for easy customization and future expansion.
 
 
-Optimized Performance: The dashboard is optimized for swift loading and smooth interactions, prioritizing a responsive and efficient user experience.
+=> Optimized Performance: The dashboard is optimized for swift loading and smooth interactions, prioritizing a responsive and efficient user experience.
 
 
 ----------------------------------------------------------------------------------------------------------------------
-Getting Started
+[Getting Started]
 To explore the dashboard, follow these simple steps:
 
 Clone this repository to your local machine.
