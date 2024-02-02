@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* start aside bar */
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(1, 19, 56);
+    display: flex;
+    justify-content: space-between;
+}
+
+aside{
+    background-color: rgba(57, 119, 244, 0.334);
+    width: 60px;
+    overflow: hidden;
+    height: 100vh;
+    padding: 20px;
+    transition: 0.3s;
+}
+aside:hover{
+    width: 260px;
+}
+ul .profile  h2{
+    font-size: 15px;
+}
+ul .profile  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: rgba(81, 255, 0, 0.427);
+    padding: 10px;
+    border-radius: 10px;
+}
+ ul .profile img {
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    border-radius: 50%;
+ }
+ ul li a {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+ul li a i {
+    font-size: 25px;
+    margin-right: 5px;
+}
+ul li a p{
+    font-size: 20px;
+}
+ul li a:hover , .active{
+    background-color: rgba(153, 149, 149, 0.723);
+}
+ul .logout{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+ul .logout a{ 
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    background-color: rgba(255, 0, 0, 0.351);
+}
+/* end aside bar  */
+
+/* start main content  */
+.main-content{
+    width: 100%;
+}
+
+.main-content .title{
+    background-color: rgb(26, 93, 247);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 0 20px;
+    justify-content: space-between;
+}
+.main-content .title p{
+     font-weight: bolder;
+}
+.main-content .boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 20px;
+}
+
+.main-content .boxes .box{
+    background-color: rgba(255, 255, 255, 0.229);
+    height: 150px;
+    flex-basis: 120px;
+    flex-grow: 1;
+    border-radius: 20px;
+}
+
+
+.main-content .boxes .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px solid transparent;
+    transition: 0.3s;
+}
+
+.main-content .boxes .box:hover{
+    border: 5px solid rgb(26, 93, 247);
+    box-shadow:  0 0 10px rgb(26, 93, 247);
+}
+.main-content .boxes .box i{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.main-content .boxes .box .data p{
+    font-size: 18px;
+    font-weight: bolder;
+}
+/* end main content */
+
+/* start table */
+table{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    border-spacing: 10px;
+}
+td,th{
+    background-color:rgba(106, 145, 236, 0.308);
+    height: 40px;
+    border-radius: 5px;
+}
+td:hover{
+    background-color:rgba(103, 133, 204, 0.919);
+}
+th{
+    background-color:  rgb(26, 93, 247);
+}
+.price{
+    background-color: rgba(12, 181, 12, 0.544);
+    padding: 10px;
+    border-radius: 10px;
+}
+.count{
+    background-color: rgba(184, 196, 15, 0.712);
+    padding: 10px;
+    border-radius: 10px;
+}
+/* end table */
+
+@media (max-width:500px) {
+    aside{
+        height: 302vh;
+        width: 25px;
+    }
+    aside:hover{
+        width: 290px;
+    }
+    ul {
+        height: 100%;
+    }
+    ul li a i {
+        font-size: 20px;
+        margin-right: 2px;
+    }
+    ul li a p{
+        font-size: 12px;
+    }
+    ul .profile img {
+        width: 30px;
+        height: 30px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    ul .profile img {
+        width: 30px;
+        height: 30px;
+        border: 2px solid white;
+        border-radius: 50%;
+     }
+     ul li a:hover , .active{
+        background-color: rgba(255, 255, 255, 0.323);
+    }
+    ul li a {
+        gap: 13px;
+    }
+    ul .profile  h2{
+        font-size: 12px;
+    }
+    ul li a {
+        margin: 100px 0;
+    }
+    aside:hover{
+        width: 60px;
+    }
+}
